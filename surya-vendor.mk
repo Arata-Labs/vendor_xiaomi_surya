@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/etc/camera/female_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_icon.png \
     vendor/xiaomi/surya/proprietary/vendor/etc/camera/golden_rear_dc_cal_wd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_rear_dc_cal_wd.bin \
     vendor/xiaomi/surya/proprietary/vendor/etc/camera/hdr_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdr_ui9_params.config \
+    vendor/xiaomi/surya/proprietary/vendor/etc/camera/facedetectpp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/facedetectpp_0_5_2_model \
     vendor/xiaomi/surya/proprietary/vendor/etc/camera/male_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_bg.png \
     vendor/xiaomi/surya/proprietary/vendor/etc/camera/male_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_icon.png \
     vendor/xiaomi/surya/proprietary/vendor/etc/camera/model_back.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_back.dlc \
@@ -284,6 +285,7 @@ PRODUCT_PACKAGES += \
     consumerir.sm6150 \
     fingerprint.fpc.sm6150 \
     fingerprint.goodix.sm6150 \
+    libFaceDetectpp-0.5.2 \
     libFaceGrade \
     libHalSuperSensorServer \
     libSNPE \
@@ -325,6 +327,7 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libcom.qti.chinodeutils \
     libdng_sdk2vendor \
+    libfacedet \
     libflaw \
     libft2vendor \
     libgf_ca \
